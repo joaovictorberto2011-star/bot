@@ -1,6 +1,6 @@
-from telegram import Update
-from telegram.ext import Application, CommandHandler, ContextTypes
-import os
+from bot import Update
+from bot.ext import Application, CommandHandler, ContextTypes
+import bot
 
 TOKEN = os.getenv("8983091532:AAGh55RWEBvOsBGczs1Rhiw6VryoTVrSGG8")  # Token salvo no Railway
 
